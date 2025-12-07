@@ -33,4 +33,4 @@ Bem-vindo(a)! Este repositório documenta minha jornada intensiva de 90 dias foc
 * **Softwares:** DB Browser (SQLite), Excel, VS Code.
 
 ## 📬 Contato
-Acompanhe minha evolução no LinkedIn: [Coloque seu Link do LinkedIn Aqui]
+Acompanhe minha evolução no LinkedIn: https://www.linkedin.com/in/jessica-rocha-dados/?originalSubdomain=br
