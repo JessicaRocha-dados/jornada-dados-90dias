@@ -11,7 +11,7 @@ Bem-vindo(a)! Este repositório documenta minha jornada intensiva de 90 dias foc
 ## 📚 O Caminho (Syllabus)
 
 ### ✅ Fase 1: SQL & Banco de Dados (Dias 1-15)
-- [ ] Comandos Básicos e Filtros
+- [x] Comandos Básicos e Filtros
 - [ ] Joins e União de Tabelas
 - [ ] Window Functions e CTEs
 - [ ] **Projeto:** Relatório de Vendas Olist
