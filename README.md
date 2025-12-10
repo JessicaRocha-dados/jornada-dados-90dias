@@ -3,7 +3,7 @@
 Bem-vindo(a)! Este repositório documenta minha jornada intensiva de 90 dias focada em **Análise de Dados**, cobrindo SQL, Excel, Python e Estatística aplicada a negócios.
 
 **Objetivo:** Transição de carreira para Analista de Dados.
-**Início:** 08/12/2024
+**Início:** 08/12/2025
 **Status:** 🟡 Em andamento
 
 ---
