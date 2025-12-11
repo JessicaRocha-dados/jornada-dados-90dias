@@ -6,13 +6,13 @@ Este documento contém a resolução de 10 problemas de negócio reais, traduzid
 
 ---
 
-## Nível 1: Filtros Simples
+```## Nível 1: Filtros Simples
 
 ### 1. Vendas de Alto Valor
 **Problema:** "Quero ver apenas os pedidos com valor (`total_amount`) superior a R$ 1.000,00."
 
 
-```SELECT * FROM olist_orders_analytics 
+SELECT * FROM olist_orders_analytics 
 WHERE total_amount > 1000;
 
 2. O Ano de Ouro (2017)
