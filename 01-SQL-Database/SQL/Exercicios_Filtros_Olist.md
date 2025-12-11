@@ -1,32 +1,34 @@
 # 🛒 Prática Intensiva: Queries de Negócio (Olist)
 **Tópico:** Filtros (`WHERE`), Operadores Lógicos e Datas.
-**Status:** ✅ Concluído
+**Status:** Concluído
 
 Este documento contém a resolução de 10 problemas de negócio reais, traduzidos para SQL.
 
 ---
 
-## 🟢 Nível 1: Filtros Simples
+## Nível 1: Filtros Simples
 
 ### 1. Vendas de Alto Valor
 **Problema:** "Quero ver apenas os pedidos com valor (`total_amount`) superior a R$ 1.000,00."
-```sql
-SELECT * FROM olist_orders_analytics 
+
+
+```SELECT * FROM olist_orders_analytics 
 WHERE total_amount > 1000;
 
 2. O Ano de Ouro (2017)
 Problema: "Traga apenas os pedidos realizados no ano de 2017."
+
 SELECT * FROM olist_orders_analytics 
 WHERE EXTRACT(YEAR FROM purchase_date) = 2017;
 
-3. Pedidos Pendentes (O Limbo)
+4. Pedidos Pendentes (O Limbo)
 Problema: "Quais pedidos ainda não foram entregues? (Data de entrega vazia)."
 
 SELECT * FROM olist_orders_analytics 
 WHERE delivered_date IS NULL;
 
+Nível 2: Filtros de Data e Texto
 
-🟡 Nível 2: Filtros de Data e Texto
 4. A Campanha de Natal
 Problema: "Quero analisar as vendas feitas especificamente no dia 25 de Dezembro de 2017.
 
@@ -46,6 +48,7 @@ SELECT * FROM olist_orders_analytics
 WHERE EXTRACT(DOW FROM purchase_date) IN (0, 6);
 
 Nível 3: Lógica Composta (AND / OR)
+
 7. O Cliente VIP (Recente e Caro)
 Problema: "Pedidos feitos em 2018 E que custaram mais de R$ 500."
 
@@ -70,4 +73,4 @@ WHERE DATE(approved_date) = DATE(purchase_date);
 Problema: "Traga todos os pedidos onde o valor NÃO seja zero.
 
 SELECT * FROM olist_orders_analytics 
-WHERE total_amount <> 0;
+WHERE total_amount <> 0;```
