@@ -17,3 +17,9 @@ Este projeto marca o início da minha jornada intensiva em **Excel para Análise
 O projeto resultou em uma planilha 100% dinâmica: ao alterar a taxa de imposto ou a quantidade vendida, todos os indicadores financeiros e totais gerais são recalculados instantaneamente.
 
 ---
+
+### 📊 Atualização - Dia 7: Data Visualization
+Transformação de dados numéricos em insights visuais.
+- Criação de **Gráfico de Colunas** para análise de faturamento.
+- **Storytelling:** Ajuste de títulos e rótulos de dados para leitura executiva.
+- **Limpeza Visual (Data Ink Ratio):** Remoção de linhas de grade e eixos desnecessários para focar na informação.
