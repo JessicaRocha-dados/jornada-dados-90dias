@@ -23,3 +23,22 @@ Transformação de dados numéricos em insights visuais.
 - Criação de **Gráfico de Colunas** para análise de faturamento.
 - **Storytelling:** Ajuste de títulos e rótulos de dados para leitura executiva.
 - **Limpeza Visual (Data Ink Ratio):** Remoção de linhas de grade e eixos desnecessários para focar na informação.
+
+## 🧠 Fase 2: Lógica e Texto (Dias 8 a 14)
+**Objetivo:** Transformar o Excel em uma ferramenta de tomada de decisão, utilizando lógica condicional para automatizar regras de negócio.
+
+### 📅 Diário de Evolução:
+
+- [x] **Dia 8: Lógica Condicional (`SE`)**
+  - Criação de um Boletim Escolar automatizado.
+  - Aplicação da função `=SE()` para classificar dados automaticamente baseados em critérios numéricos.
+  - *Arquivo:* `Dia_08_Logica_SE.xlsx`
+
+- [x] **Dia 9: Análise Seletiva (`SOMASE` e `CONT.SE`)**
+  - Criação de resumo de vendas por vendedor.
+  - Utilização de `=SOMASE()` para agregações condicionais.
+  - Utilização de `=CONT.SE()` para contagem de ocorrências.
+  - **Prática de Debugging:** Identificação e correção de erros de referência em fórmulas.
+  - *Arquivo:* `Dia_09_Condicionais.xlsx`
+
+---
