@@ -42,3 +42,9 @@ Transformação de dados numéricos em insights visuais.
   - *Arquivo:* `Dia_09_Condicionais.xlsx`
 
 ---
+- [x] **Dia 10: Lógica Complexa (`E`, `OU` e `SE Aninhado`)**
+  - Criação de regras de bônus com múltiplos critérios.
+  - Uso da função `E` (todas as condições verdadeiras) e `OU` (pelo menos uma verdadeira).
+  - Implementação de **SE Aninhado** (Nested IF) para criar sistema de medalhas (Ouro/Prata/Bronze).
+  - Aplicação de **Formatação Condicional** para indicadores visuais automáticos.
+  - *Arquivo:* `Dia_10_Logica_Avancada.xlsx`
