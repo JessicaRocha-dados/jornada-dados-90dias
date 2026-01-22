@@ -48,3 +48,18 @@ Transformação de dados numéricos em insights visuais.
   - Implementação de **SE Aninhado** (Nested IF) para criar sistema de medalhas (Ouro/Prata/Bronze).
   - Aplicação de **Formatação Condicional** para indicadores visuais automáticos.
   - *Arquivo:* `Dia_10_Logica_Avancada.xlsx`
+---
+### 📅 Diário de Evolução:
+
+- [x] **Dia 11: Higienização de Texto (`ARRUMAR` e `PRI.MAIÚSCULA`)**
+  - Tratamento de erros comuns de input (espaços extras, caixa alta/baixa misturada).
+  - Criação de pipelines de limpeza aninhando funções.
+  - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx` (Aba: 11_Limpeza_Padronizacao)
+
+- [x] **Dia 12: Extração e Manipulação de Strings (`ESQUERDA`, `DIREITA`, `LOCALIZAR`)**
+  - Lógica de extração dinâmica baseada em delimitadores (espaço).
+  - Separação de Nome e Sobrenome de forma automatizada, independente do tamanho do texto.
+  - Combinação de `NÚM.CARACT` com `LOCALIZAR` para cálculos de posição.
+  - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx` (Aba: 12_Extracao_Dinamica)
+
+---
