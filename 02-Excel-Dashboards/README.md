@@ -63,3 +63,12 @@ Transformação de dados numéricos em insights visuais.
   - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx` (Aba: 12_Extracao_Dinamica)
 
 ---
+
+📅 Diário de Evolução:
+[x] Dia 13: Engenharia Temporal (HOJE, DATADIF e DIA.DA.SEMANA)
+
+Compreensão de datas como números seriais para criação de contadores regressivos e cálculo de prazos.
+
+Uso da função oculta DATADIF para cálculo de idade exata e formatação personalizada (dddd) para dias da semana.
+
+Arquivo: Dia_13_Datas_e_Revisao.xlsx (Aba: 13_Datas_Prazos)
