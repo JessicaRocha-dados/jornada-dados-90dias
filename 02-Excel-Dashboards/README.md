@@ -68,3 +68,11 @@ Transformação de dados numéricos em insights visuais.
   - Compreensão de datas como números seriais para criação de contadores regressivos e cálculo de prazos.
   - Uso da função oculta `DATADIF` para cálculo de idade exata e formatação personalizada (`dddd`) para dias da semana.
   - *Arquivo:* `Dia_13_Datas_e_Revisao.xlsx` (Aba: 13_Datas_Prazos)
+---
+[x] Dia 14: Gestão Temporal e Visual ( [h]:mm, Lógica Booleana e FORMATAÇÃO CONDICIONAL )
+
+Compreensão de horas como frações decimais para cálculo de turnos noturnos e criação de "semáforos" financeiros automáticos.
+
+Aplicação de lógica booleana +(Saída<Entrada) para correção de virada de dia e regras de formatação baseadas em fórmulas compostas (E e LOCALIZAR).
+
+Arquivo: Dia_14_Logica_e_Cores.xlsx (Aba: 14_Horas_Condicional)
