@@ -74,3 +74,17 @@ Transformação de dados numéricos em insights visuais.
   - Compreensão de horas como frações decimais para cálculo de turnos noturnos e criação de "semáforos" financeiros automáticos.
   - Aplicação de lógica booleana `+(Saída<Entrada)` para correção de virada de dia e regras de formatação baseadas em fórmulas compostas (`E` e `LOCALIZAR`).
   - *Arquivo:* `Dia_14_Logica_e_Cores.xlsx` (Aba: 14_Horas_Condicional)
+
+    ---
+
+    ## 🛒 Dia 15: Sistema de Consulta de Preços (PROCV)
+
+**Objetivo:** Criar uma ferramenta de busca automática para simular uma "Frente de Caixa", eliminando erros de digitação e agilizando o atendimento.
+
+### 🔨 Funcionalidades Desenvolvidas:
+- **Base de Dados Normalizada:** Separação entre a camada de dados (Cadastro) e a camada de usuário (Consulta).
+- **Busca Automatizada (VLOOKUP):** Utilização da função `PROCV` com correspondência exata (`0`) para recuperar Descrição e Preço pelo ID.
+- **Tratamento de Exceções:** Implementação de `SEERRO` para blindar a interface contra códigos inexistentes ou vazios, exibindo mensagens amigáveis ("Produto não cadastrado").
+- **Interface de Usuário (UI):** Design limpo, com instruções de uso claras e distinção visual entre campos de input e output.
+
+---
