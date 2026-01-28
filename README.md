@@ -27,7 +27,7 @@ Bem-vindo(a)! Este repositório documenta minha jornada intensiva de 90 dias foc
 - [ ] Dashboards Interativos (Próximo)
 
 #### 📂 Destaque Recente:
-> **[Sistema de Frente de Caixa (PROCV)](./Dia_15_Sistema_de_Busca_PROCV.xlsx)** > Automação de consulta de preços utilizando VLOOKUP e tratamento de erros para simular um sistema de vendas real.
+> **[Sistema de Frente de Caixa (PROCV)](./EXCEL/Dia_15_Sistema_de_Busca_PROCV.xlsx)** > Automação de consulta de preços utilizando VLOOKUP e tratamento de erros para simular um sistema de vendas real.
 
 ### ⏳ Fase 3: Power BI & Visualização (Próxima Etapa)
 *Foco em Storytelling e Inteligência de Negócios (BI).*
