@@ -88,3 +88,8 @@ Transformação de dados numéricos em insights visuais.
 - **Interface de Usuário (UI):** Design limpo, com instruções de uso claras e distinção visual entre campos de input e output.
 
 ---
+[x] Dia 17: O Moderno PROCX ( XLOOKUP, Tratamento de Erros e Dashboard )
+
+* Implementação de buscas bidirecionais (recuperando dados à esquerda e direita da chave) utilizando `PROCX`, eliminando as limitações de contagem de colunas do antigo `PROCV`.
+
+* Desenvolvimento de blindagem lógica com o argumento nativo de erro ("Não Cadastrado") e uso da função `SE` para limpeza visual de células vazias em consultas em lote.
