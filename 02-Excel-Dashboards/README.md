@@ -77,19 +77,19 @@ Transformação de dados numéricos em insights visuais.
 
     ---
 
-    ## 🛒 Dia 15: Sistema de Consulta de Preços (PROCV)
+    [x] Dia 15-16: Sistema de Consulta de Preços (PROCV & Tratamento de Erros)
 
-**Objetivo:** Criar uma ferramenta de busca automática para simular uma "Frente de Caixa", eliminando erros de digitação e agilizando o atendimento.
+* **Objetivo:** Criação de uma ferramenta de "Frente de Caixa" simulada, separando a camada de dados (Cadastro) da interface de usuário (UI) para eliminar erros manuais.
 
-### 🔨 Funcionalidades Desenvolvidas:
-- **Base de Dados Normalizada:** Separação entre a camada de dados (Cadastro) e a camada de usuário (Consulta).
-- **Busca Automatizada (VLOOKUP):** Utilização da função `PROCV` com correspondência exata (`0`) para recuperar Descrição e Preço pelo ID.
-- **Tratamento de Exceções:** Implementação de `SEERRO` para blindar a interface contra códigos inexistentes ou vazios, exibindo mensagens amigáveis ("Produto não cadastrado").
-- **Interface de Usuário (UI):** Design limpo, com instruções de uso claras e distinção visual entre campos de input e output.
+* **Técnica:** Aplicação da função `PROCV` (VLOOKUP) com correspondência exata para busca de dados, integrada com a função `SEERRO` para blindar a interface contra códigos inexistentes ("Produto não cadastrado").
 
 ---
-[x] Dia 17: O Moderno PROCX ( XLOOKUP, Tratamento de Erros e Dashboard )
 
-* Implementação de buscas bidirecionais (recuperando dados à esquerda e direita da chave) utilizando `PROCX`, eliminando as limitações de contagem de colunas do antigo `PROCV`.
+[x] Dia 17: O Moderno PROCX (XLOOKUP & Dashboard Dinâmico)
 
-* Desenvolvimento de blindagem lógica com o argumento nativo de erro ("Não Cadastrado") e uso da função `SE` para limpeza visual de células vazias em consultas em lote.
+* **Evolução:** Implementação de buscas bidirecionais (recuperando dados à esquerda e à direita da chave) utilizando `PROCX`, superando as limitações de contagem de colunas do antigo PROCV.
+
+* **Blindagem Lógica:** Uso do argumento nativo de erro do PROCX para mensagens personalizadas e combinação com a função `SE` para limpeza visual de células vazias em consultas em lote (prevenção de zeros no dashboard).
+
+* Arquivo: `Dia_16_17 Sistema de Consulta_PROCX..xlsx`
+  
