@@ -92,4 +92,15 @@ Transformação de dados numéricos em insights visuais.
 * **Blindagem Lógica:** Uso do argumento nativo de erro do PROCX para mensagens personalizadas e combinação com a função `SE` para limpeza visual de células vazias em consultas em lote (prevenção de zeros no dashboard).
 
 * Arquivo: `Dia_16_17 Sistema de Consulta_PROCX..xlsx`
+
+---
+ [x] Dia 18: Tabela Dinâmica e Dashboards Interativos
+
+* **Transformação de Dados:** Criação de Tabela Dinâmica (Pivot Table) para sumarizar bases de vendas, utilizando agrupamento hierárquico (Vendedor > Produto) e temporal (Meses).
+
+* **Interatividade:** Implementação de Segmentação de Dados (Slicers) para filtragem visual por lojas.
+
+* **UI/UX:** Aplicação de conceitos de Design de Dashboard, separando a camada de visualização (Front-end) da base de dados (Back-end) e removendo linhas de grade para um visual limpo ("Clean").
+
+* Arquivo: `Dia_18_Dashboard_Vendas.xlsx`
   
