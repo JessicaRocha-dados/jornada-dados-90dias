@@ -103,4 +103,16 @@ Transformação de dados numéricos em insights visuais.
 * **UI/UX:** Aplicação de conceitos de Design de Dashboard, separando a camada de visualização (Front-end) da base de dados (Back-end) e removendo linhas de grade para um visual limpo ("Clean").
 
 * Arquivo: `Dia_18_Dashboard_Vendas.xlsx`
+
+---
+### [x] Dia 19: Tabela Dinâmica Avançada e Business Intelligence
+
+* **Análise de Pareto (80/20):** Utilizei Tabela Dinâmica para mapear a concentração de receita da TechStore, identificando os produtos "Curve A" (Campeões de Venda).
+* **Cálculos Avançados:** Aplicação de `% do Total Geral` (Show Values As) para calcular o Market Share sem a necessidade de fórmulas complexas externas.
+* **Data Storytelling:** Estruturação de um Relatório Executivo Profissional, contendo:
+    * **Cabeçalho:** Título claro e Metodologia aplicada.
+    * **Visual Clean:** Remoção de gridlines e aplicação de design tabular.
+    * **Insights de Negócio:** Identificação e destaque visual de que **98,78% do faturamento** provém de apenas 2 SKUs (iPhone 15 e Notebook Dell).
+
+* **Arquivos:** `Dia_19_Analise_Pareto.xlsx`, `Dia_19_Final.png`
   
