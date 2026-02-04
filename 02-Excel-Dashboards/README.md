@@ -114,5 +114,4 @@ Transformação de dados numéricos em insights visuais.
     * **Visual Clean:** Remoção de gridlines e aplicação de design tabular.
     * **Insights de Negócio:** Identificação e destaque visual de que **98,78% do faturamento** provém de apenas 2 SKUs (iPhone 15 e Notebook Dell).
 
-* **Arquivos:** `Dia_19_Analise_Pareto.xlsx`, `Dia_19_Final.png`
-  
+**Arquivos:** `Dia_19_Final.xlsx`, `Dia_19_Final.png`
