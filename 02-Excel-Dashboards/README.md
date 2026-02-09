@@ -115,3 +115,35 @@ Transformação de dados numéricos em insights visuais.
     * **Insights de Negócio:** Identificação e destaque visual de que **98,78% do faturamento** provém de apenas 2 SKUs (iPhone 15 e Notebook Dell).
 
 **Arquivos:** `Dia_19_Final.xlsx`, `Dia_19_Final.png`
+
+---
+
+# 📊 Dia 21: Dashboard Interativo de Vendas
+
+![Visualização do Dashboard](2.png)
+*(Prévia do Painel Interativo desenvolvido)*
+
+## 📝 Sobre o Projeto
+Este projeto marca o avanço dos estudos de Excel para **Business Intelligence**. O objetivo foi transformar uma base de dados bruta de vendas em um painel gerencial visual, permitindo a análise de faturamento de forma rápida e intuitiva.
+
+## 🚀 Funcionalidades Implementadas
+* **Interatividade Total:** Substituição de filtros comuns por **Segmentação de Dados (Slicers)**, permitindo filtrar o relatório por *Região* e *Vendedor* com apenas um clique.
+* **Análise Dinâmica:** Utilização de Tabela Dinâmica (Pivot Table) para consolidar e resumir milhares de linhas de vendas em uma visão clara de desempenho por produto.
+* **UI/UX em Planilhas:** Aplicação de técnicas de design para dashboards, incluindo:
+  * Remoção de linhas de grade para visual limpo.
+  * Padronização de cores (Identidade Visual Azul).
+  * Formatação de valores monetários e cabeçalhos de negócio.
+
+## 🛠️ Tecnologias
+* Microsoft Excel
+* Tabela Dinâmica
+* Segmentação de Dados
+* Tratamento de Dados
+
+## 📂 Como Usar
+1. Baixe o arquivo `Dashboard_Vendas_Dia21.xlsx` neste repositório.
+2. Abra no Excel habilitando a edição.
+3. Utilize os botões no topo do painel para filtrar os resultados dinamicamente.
+
+---
+*Desenvolvido por **Jéssica Rocha** durante a jornada de Data Science.*
