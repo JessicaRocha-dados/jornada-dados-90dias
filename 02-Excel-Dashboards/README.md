@@ -79,8 +79,7 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
 
 ### 🛡️ Dia 22: Data Quality e Validação
 
-![Preview do Formulário](<img width="927" height="527" alt="formulario png" src="https://github.com/user-attachments/assets/7d3dd6d9-b1c7-41f7-b47b-47c1185718f4" />
-)
+![Preview do Formulário](formulario.png)
 
 - **Objetivo:** Garantir a qualidade dos dados na fonte (Input).
 - **Técnica:** Criação de **Listas Suspensas (Dropdowns)** e travas de segurança.
