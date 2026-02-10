@@ -1,149 +1,96 @@
-# 📊 Projeto: Relatório de Estoque e Precificação
+# 📊 Jornada Excel para Análise de Dados
 
-Este projeto marca o início da minha jornada intensiva em **Excel para Análise de Dados**. O objetivo foi transformar uma lista de dados brutos em um relatório gerencial automatizado e visualmente profissional.
+> **Status do Projeto:** 🚀 Em Andamento (Dia 22/30)
 
-## 🛠️ Tecnologias e Conceitos Aplicados
-
-### 1. Tratamento e Estruturação de Dados
-- **Limpeza de Dados:** Padronização de tipos de dados (Texto vs. Números) e ajustes de layout.
-- **Design de Interface:** Aplicação de conceitos de UI (User Interface) em planilhas (remoção de gridlines, hierarquia visual, mesclagem estratégica).
-
-### 2. Lógica e Fórmulas Matemáticas
-- **Operações Fundamentais:** Criação de colunas calculadas para `Total` (Quantidade * Valor) e projeções.
-- **Funções de Agregação:** Uso de `SOMA`, `MÉDIA` e `MÁXIMO` para gerar o rodapé de *Business Intelligence* (BI).
-- **Referências Absolutas ($):** Implementação de taxa de imposto dinâmica (Input de 10%), utilizando o travamento de células para automatizar o recálculo em massa.
-
-## 📈 Resultado
-O projeto resultou em uma planilha 100% dinâmica: ao alterar a taxa de imposto ou a quantidade vendida, todos os indicadores financeiros e totais gerais são recalculados instantaneamente.
+Este repositório documenta minha jornada intensiva de aprendizado em **Excel for Data Science**. O objetivo é dominar desde a estruturação de dados brutos até a criação de Dashboards Gerenciais interativos e automatizados.
 
 ---
 
-### 📊 Atualização - Dia 7: Data Visualization
-Transformação de dados numéricos em insights visuais.
-- Criação de **Gráfico de Colunas** para análise de faturamento.
-- **Storytelling:** Ajuste de títulos e rótulos de dados para leitura executiva.
-- **Limpeza Visual (Data Ink Ratio):** Remoção de linhas de grade e eixos desnecessários para focar na informação.
+## 📚 Módulo 1: Fundamentos e Estruturação (Dias 1-7)
+**Foco:** Tratamento de dados, operações matemáticas e visualização básica.
 
-## 🧠 Fase 2: Lógica e Texto (Dias 8 a 14)
-**Objetivo:** Transformar o Excel em uma ferramenta de tomada de decisão, utilizando lógica condicional para automatizar regras de negócio.
+### 🛠️ Projeto: Relatório de Estoque e Precificação
+Transformação de uma lista de dados brutos em um relatório gerencial automatizado.
 
-### 📅 Diário de Evolução:
+- **Tratamento de Dados:** Padronização de tipos (Texto vs. Números) e limpeza de layout (UI Design).
+- **Fórmulas:** Criação de colunas calculadas e uso de funções de agregação (`SOMA`, `MÉDIA`, `MÁXIMO`) para rodapé de BI.
+- **Referências Absolutas ($):** Implementação de taxas dinâmicas com travamento de células.
+- **Data Visualization (Dia 7):** Criação de gráficos de colunas com foco em Storytelling e *Data Ink Ratio* (limpeza visual).
+
+---
+
+## 🧠 Módulo 2: Lógica e Manipulação de Texto (Dias 8-14)
+**Foco:** Automatizar regras de negócio e higienizar bases de dados.
 
 - [x] **Dia 8: Lógica Condicional (`SE`)**
-  - Criação de um Boletim Escolar automatizado.
-  - Aplicação da função `=SE()` para classificar dados automaticamente baseados em critérios numéricos.
+  - Criação de Boletim Escolar com classificação automática baseada em critérios numéricos.
   - *Arquivo:* `Dia_08_Logica_SE.xlsx`
 
 - [x] **Dia 9: Análise Seletiva (`SOMASE` e `CONT.SE`)**
-  - Criação de resumo de vendas por vendedor.
-  - Utilização de `=SOMASE()` para agregações condicionais.
-  - Utilização de `=CONT.SE()` para contagem de ocorrências.
-  - **Prática de Debugging:** Identificação e correção de erros de referência em fórmulas.
+  - Resumo de vendas por vendedor e contagem de ocorrências (frequência).
+  - Prática de *Debugging* de fórmulas.
   - *Arquivo:* `Dia_09_Condicionais.xlsx`
 
----
-- [x] **Dia 10: Lógica Complexa (`E`, `OU` e `SE Aninhado`)**
-  - Criação de regras de bônus com múltiplos critérios.
-  - Uso da função `E` (todas as condições verdadeiras) e `OU` (pelo menos uma verdadeira).
-  - Implementação de **SE Aninhado** (Nested IF) para criar sistema de medalhas (Ouro/Prata/Bronze).
-  - Aplicação de **Formatação Condicional** para indicadores visuais automáticos.
+- [x] **Dia 10: Lógica Avançada (`E`, `OU`, `SE Aninhado`)**
+  - Regras de bônus com múltiplos critérios e sistema de medalhas (Nested IF).
+  - Indicadores visuais com Formatação Condicional.
   - *Arquivo:* `Dia_10_Logica_Avancada.xlsx`
----
-### 📅 Diário de Evolução:
 
-- [x] **Dia 11: Higienização de Texto (`ARRUMAR` e `PRI.MAIÚSCULA`)**
-  - Tratamento de erros comuns de input (espaços extras, caixa alta/baixa misturada).
-  - Criação de pipelines de limpeza aninhando funções.
-  - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx` (Aba: 11_Limpeza_Padronizacao)
+- [x] **Dias 11-12: Engenharia de Texto (`ESQUERDA`, `LOCALIZAR`, `ARRUMAR`)**
+  - Pipelines de limpeza de texto e extração dinâmica de nomes/sobrenomes.
+  - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx`
 
-- [x] **Dia 12: Extração e Manipulação de Strings (`ESQUERDA`, `DIREITA`, `LOCALIZAR`)**
-  - Lógica de extração dinâmica baseada em delimitadores (espaço).
-  - Separação de Nome e Sobrenome de forma automatizada, independente do tamanho do texto.
-  - Combinação de `NÚM.CARACT` com `LOCALIZAR` para cálculos de posição.
-  - *Arquivo:* `Dias_11_12_Manipulacao_Texto.xlsx` (Aba: 12_Extracao_Dinamica)
-
----
-- [x] **Dia 13: Engenharia Temporal ( `HOJE`, `DATADIF` e `DIA.DA.SEMANA` )**
-
-  - Compreensão de datas como números seriais para criação de contadores regressivos e cálculo de prazos.
-  - Uso da função oculta `DATADIF` para cálculo de idade exata e formatação personalizada (`dddd`) para dias da semana.
-  - *Arquivo:* `Dia_13_Datas_e_Revisao.xlsx` (Aba: 13_Datas_Prazos)
----
-[x] **Dia 14: Gestão Temporal e Visual ( `[h]:mm`, Lógica Booleana e `FORMATAÇÃO CONDICIONAL` )**
-
-  - Compreensão de horas como frações decimais para cálculo de turnos noturnos e criação de "semáforos" financeiros automáticos.
-  - Aplicação de lógica booleana `+(Saída<Entrada)` para correção de virada de dia e regras de formatação baseadas em fórmulas compostas (`E` e `LOCALIZAR`).
-  - *Arquivo:* `Dia_14_Logica_e_Cores.xlsx` (Aba: 14_Horas_Condicional)
-
-    ---
-
-    [x] Dia 15-16: Sistema de Consulta de Preços (PROCV & Tratamento de Erros)
-
-* **Objetivo:** Criação de uma ferramenta de "Frente de Caixa" simulada, separando a camada de dados (Cadastro) da interface de usuário (UI) para eliminar erros manuais.
-
-* **Técnica:** Aplicação da função `PROCV` (VLOOKUP) com correspondência exata para busca de dados, integrada com a função `SEERRO` para blindar a interface contra códigos inexistentes ("Produto não cadastrado").
+- [x] **Dias 13-14: Engenharia Temporal (`DATADIF`, `HOJE`, Lógica de Horas)**
+  - Cálculo de prazos, idades exatas e gestão de turnos (cálculo de horas noturnas).
+  - *Arquivo:* `Dia_13_Datas_e_Revisao.xlsx` | `Dia_14_Logica_e_Cores.xlsx`
 
 ---
 
-[x] Dia 17: O Moderno PROCX (XLOOKUP & Dashboard Dinâmico)
+## 🔍 Módulo 3: Consultas e Cruzamento de Dados (Dias 15-17)
+**Foco:** Conectar bases de dados diferentes (Relacional).
 
-* **Evolução:** Implementação de buscas bidirecionais (recuperando dados à esquerda e à direita da chave) utilizando `PROCX`, superando as limitações de contagem de colunas do antigo PROCV.
+- [x] **Dias 15-16: Sistema de Consulta (`PROCV` e `SEERRO`)**
+  - Criação de ferramenta de "Frente de Caixa", separando Back-end (Dados) de Front-end (UI).
+  - Blindagem de erros para códigos inexistentes.
 
-* **Blindagem Lógica:** Uso do argumento nativo de erro do PROCX para mensagens personalizadas e combinação com a função `SE` para limpeza visual de células vazias em consultas em lote (prevenção de zeros no dashboard).
-
-* Arquivo: `Dia_16_17 Sistema de Consulta_PROCX..xlsx`
-
----
- [x] Dia 18: Tabela Dinâmica e Dashboards Interativos
-
-* **Transformação de Dados:** Criação de Tabela Dinâmica (Pivot Table) para sumarizar bases de vendas, utilizando agrupamento hierárquico (Vendedor > Produto) e temporal (Meses).
-
-* **Interatividade:** Implementação de Segmentação de Dados (Slicers) para filtragem visual por lojas.
-
-* **UI/UX:** Aplicação de conceitos de Design de Dashboard, separando a camada de visualização (Front-end) da base de dados (Back-end) e removendo linhas de grade para um visual limpo ("Clean").
-
-* Arquivo: `Dia_18_Dashboard_Vendas.xlsx`
-
----
-### [x] Dia 19: Tabela Dinâmica Avançada e Business Intelligence
-
-* **Análise de Pareto (80/20):** Utilizei Tabela Dinâmica para mapear a concentração de receita da TechStore, identificando os produtos "Curve A" (Campeões de Venda).
-* **Cálculos Avançados:** Aplicação de `% do Total Geral` (Show Values As) para calcular o Market Share sem a necessidade de fórmulas complexas externas.
-* **Data Storytelling:** Estruturação de um Relatório Executivo Profissional, contendo:
-    * **Cabeçalho:** Título claro e Metodologia aplicada.
-    * **Visual Clean:** Remoção de gridlines e aplicação de design tabular.
-    * **Insights de Negócio:** Identificação e destaque visual de que **98,78% do faturamento** provém de apenas 2 SKUs (iPhone 15 e Notebook Dell).
-
-**Arquivos:** `Dia_19_Final.xlsx`, `Dia_19_Final.png`
+- [x] **Dia 17: O Moderno `PROCX` (XLOOKUP)**
+  - Buscas bidirecionais e matrizes dinâmicas, superando limitações do PROCV.
+  - *Arquivo:* `Dia_16_17 Sistema de Consulta_PROCX.xlsx`
 
 ---
 
-# 📊 Dia 21: Dashboard Interativo de Vendas
+## 📊 Módulo 4: Business Intelligence e Dashboards (Dias 18-22)
+**Foco:** Transformar dados em tomadas de decisão visuais.
+
+### 📉 Dias 18-19: Análise de Vendas e Pareto
+- **Pivot Tables:** Sumarização de bases de vendas com agrupamento temporal.
+- **Análise de Pareto (80/20):** Identificação de produtos "Curva A" (Campeões de Venda) e cálculo de Market Share.
+- **Storytelling:** Relatório executivo mostrando que **98% do faturamento** provém de 2 SKUs.
+- *Arquivos:* `Dia_18_Dashboard_Vendas.xlsx`, `Dia_19_Final.xlsx`
+
+### 🖥️ Dia 21: Dashboard Interativo (Slicers)
 
 ![Visualização do Dashboard](2.png)
-*(Prévia do Painel Interativo desenvolvido)*
 
-## 📝 Sobre o Projeto
-Este projeto marca o avanço dos estudos de Excel para **Business Intelligence**. O objetivo foi transformar uma base de dados bruta de vendas em um painel gerencial visual, permitindo a análise de faturamento de forma rápida e intuitiva.
+- **Interatividade:** Implementação de **Segmentação de Dados (Slicers)** para filtragem por Região/Vendedor.
+- **UI/UX:** Design limpo, remoção de grades e identidade visual corporativa (Azul).
+- **Resultado:** Painel dinâmico de faturamento por produto.
+- *Arquivo:* `Dashboard_Vendas_Dia21.xlsx`
 
-## 🚀 Funcionalidades Implementadas
-* **Interatividade Total:** Substituição de filtros comuns por **Segmentação de Dados (Slicers)**, permitindo filtrar o relatório por *Região* e *Vendedor* com apenas um clique.
-* **Análise Dinâmica:** Utilização de Tabela Dinâmica (Pivot Table) para consolidar e resumir milhares de linhas de vendas em uma visão clara de desempenho por produto.
-* **UI/UX em Planilhas:** Aplicação de técnicas de design para dashboards, incluindo:
-  * Remoção de linhas de grade para visual limpo.
-  * Padronização de cores (Identidade Visual Azul).
-  * Formatação de valores monetários e cabeçalhos de negócio.
+### 🛡️ Dia 22: Data Quality e Validação
 
-## 🛠️ Tecnologias
-* Microsoft Excel
-* Tabela Dinâmica
-* Segmentação de Dados
-* Tratamento de Dados
+![Preview do Formulário](nome-do-seu-print.png)
 
-## 📂 Como Usar
-1. Baixe o arquivo `Dashboard_Vendas_Dia21.xlsx` neste repositório.
-2. Abra no Excel habilitando a edição.
-3. Utilize os botões no topo do painel para filtrar os resultados dinamicamente.
+- **Objetivo:** Garantir a qualidade dos dados na fonte (Input).
+- **Técnica:** Criação de **Listas Suspensas (Dropdowns)** e travas de segurança.
+- **UX:** Mensagens de instrução (Input Message) e Alertas de Erro personalizados.
+- *Arquivo:* `Dia22_Validacao_de_Dados.xlsx`
 
 ---
-*Desenvolvido por **Jéssica Rocha** durante a jornada de Data Science.*
+
+## 🛠️ Stack Tecnológica
+* **Microsoft Excel** (Office 365)
+* **Conceitos:** ETL (Extract, Transform, Load), Data Cleaning, UI/UX Design, Dashboarding.
+
+---
+*Desenvolvido por **Jéssica Rocha** 👩‍💻*
