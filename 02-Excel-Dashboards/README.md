@@ -93,4 +93,13 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
 * **Conceitos:** ETL (Extract, Transform, Load), Data Cleaning, UI/UX Design, Dashboarding.
 
 ---
+### 📈 Dia 23: Data Storytelling e Gráficos Essenciais
+
+![Visualização do Gráfico](Dia_23.png)
+
+- **Objetivo:** Transformar dados brutos em insights visuais claros, saindo do padrão "automático" do Excel.
+- **Técnica:** Criação de **Gráfico de Linhas** para análise temporal (Tendência de Vendas).
+- **Design (Data-Ink Ratio):** Aplicação de limpeza visual extrema (remoção de gridlines, bordas e eixos redundantes) para reduzir a carga cognitiva.
+- **Storytelling:** Uso estratégico de **Destaque Visual** (cor e tamanho diferenciados) no ponto de máximo (Junho), guiando o olhar do tomador de decisão para o insight principal.
+- *Arquivo:* `Dia23_Visualizacao_Dados.xlsx`
 *Desenvolvido por **Jéssica Rocha** 👩‍💻*
