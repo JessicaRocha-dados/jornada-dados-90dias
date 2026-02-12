@@ -103,3 +103,14 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
 - **Storytelling:** Uso estratégico de **Destaque Visual** (cor e tamanho diferenciados) no ponto de máximo (Junho), guiando o olhar do tomador de decisão para o insight principal.
 - *Arquivo:* `Dia23_Visualizacao_Dados.xlsx`
 *Desenvolvido por **Jéssica Rocha** 👩‍💻*
+---
+### 📊 Dia 24: Gráficos de Combinação e Análise de Margem
+
+![Análise de Faturamento x Margem](Dia_24_Analise.png)
+
+- **Desafio de Negócio:** Comparar duas métricas com escalas muito diferentes: *Faturamento* (Valores absolutos altos) e *Margem de Lucro* (Porcentagem pequena), identificando a relação entre volume de vendas e rentabilidade.
+- **Técnica:** Construção de **Gráfico de Combinação (Combo Chart)** utilizando **Eixo Secundário** para visualização simultânea das duas grandezas sem distorção.
+- **Storytelling com Dados:**
+    - Identificação visual do "Efeito Black Friday" (Pico de vendas com queda de margem).
+    - Uso de elementos visuais (**Setas e Callouts**) para conectar os pontos de dados diretamente aos insights de negócio, facilitando a leitura executiva.
+- *Arquivo:* `Dia24_Grafico_Combo_Analise.xlsx`
