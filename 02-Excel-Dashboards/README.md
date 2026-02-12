@@ -114,3 +114,19 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
     - Identificação visual do "Efeito Black Friday" (Pico de vendas com queda de margem).
     - Uso de elementos visuais (**Setas e Callouts**) para conectar os pontos de dados diretamente aos insights de negócio, facilitando a leitura executiva.
 - *Arquivo:* `Dia24_Grafico_Combo_Analise.xlsx`
+---
+
+### 🧹 Dia 25: Introdução ao Power Query (ETL)
+
+![Resultado Power Query - Tabela Limpa](Dia_25_PowerQuery.png)
+
+- **Desafio:** Importar dados reais da Web (Wikipédia) contendo formatação incompatível (espaços não-quebráveis como separadores de milhar) que impediam cálculos.
+- **Ferramenta:** **Power Query** (Editor de Consultas do Excel).
+- **Técnicas de ETL (Extract, Transform, Load) aplicadas:**
+    - **Extração (Web Scraping):** Conexão direta com URL externa da Wikipédia para buscar a tabela de "Unidades Federativas".
+    - **Transformação (Cleaning):**
+        - Remoção de colunas desnecessárias.
+        - Uso da inteligência artificial **"Coluna de Exemplos"** para ensinar o Excel a limpar caracteres especiais ocultos (espaço não-quebrável).
+        - Conversão de tipos de dados (Texto -> Número Inteiro).
+    - **Carga:** Disponibilização dos dados tratados em Tabela Excel pronta para análise.
+- *Arquivo:* `Dia25_PowerQuery_Intro.xlsx`
