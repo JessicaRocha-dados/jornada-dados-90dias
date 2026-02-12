@@ -130,3 +130,18 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
         - Conversão de tipos de dados (Texto -> Número Inteiro).
     - **Carga:** Disponibilização dos dados tratados em Tabela Excel pronta para análise.
 - *Arquivo:* `Dia25_PowerQuery_Intro.xlsx`
+- 
+--- 
+
+### 🔗 Dia 26: Mesclar Consultas (O "PROCV" do Power Query)
+
+![Resultado Mesclar Consultas](Dia_26_Mesclar.png)
+
+- **Desafio:** Unificar dados de duas tabelas distintas ("Fato Vendas" e "Dimensão Produtos") para calcular o faturamento total, sem utilizar fórmulas pesadas como PROCV ou PROCX.
+- **Técnica:** **Merge Queries (Mesclar Consultas)** no Power Query (equivalente ao *Left Join* em SQL).
+- **Passo a Passo:**
+    1.  **Conexão:** Importação das tabelas `fVendas` e `dProdutos` apenas como conexão (para economizar memória).
+    2.  **Mesclagem:** Cruzamento das tabelas usando a chave única `ID_Produto`.
+    3.  **Expansão:** Seleção apenas das colunas necessárias (Nome, Categoria, Preço) da tabela dimensão.
+    4.  **Cálculo:** Criação de Coluna Personalizada (`Qtd * Preço`) dentro do editor ETL.
+- *Arquivo:* `Dia26_Mesclar_Consultas.xlsx`
