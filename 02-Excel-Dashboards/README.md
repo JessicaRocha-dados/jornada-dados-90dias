@@ -145,3 +145,25 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
     3.  **Expansão:** Seleção apenas das colunas necessárias (Nome, Categoria, Preço) da tabela dimensão.
     4.  **Cálculo:** Criação de Coluna Personalizada (`Qtd * Preço`) dentro do editor ETL.
 - *Arquivo:* `Dia26_Mesclar_Consultas.xlsx`
+---
+
+### 🔗 Dia 27: 📊 Dashboard de Vendas - Excel
+
+Dashboard interativo desenvolvido para análise de performance de vendas, sazonalidade e mix de produtos.
+
+![Capa do Dashboard](Capa_Dashboard.png)
+*(Certifique-se de que o nome da imagem aqui seja igual ao arquivo que você subiu)*
+
+## 🛠️ Tecnologias Utilizadas
+* **Microsoft Excel:** Tabelas Dinâmicas (Pivot Tables), Gráficos Dinâmicos, Segmentação de Dados (Slicers) e Tratamento de Dados (ETL simples).
+
+## 💡 Insights de Negócio
+Com base na análise dos dados (cenário Loja SP-01 e Geral), identificou-se:
+
+* **Risco de Concentração:** A receita é altamente dependente da categoria **Celulares** (~80%). Uma queda na demanda deste setor impactaria drasticamente o resultado.
+* **Volatilidade Mensal:** A performance apresenta oscilações bruscas (Picos e Vales), sem tendência de crescimento estável.
+* **Pareto (Curva A):** O faturamento é sustentado por apenas **5 produtos** de alto ticket (Galaxy S24, iPhone 15, etc).
+* **Ação Recomendada:** Estratégia de *Cross-Sell* (venda cruzada) de Acessórios para blindar a margem e reduzir a dependência da venda de aparelhos.
+
+## 📂 Como visualizar
+Baixe o arquivo `Dashboard_Vendas.xlsx` neste repositório para testar a interatividade dos filtros.
