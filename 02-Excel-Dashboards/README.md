@@ -1,6 +1,6 @@
 # 📊 Jornada Excel para Análise de Dados
 
-> **Status do Projeto:** 🚀 Em Andamento (Dia 22/30)
+> **Status do Projeto:** 🚀 Concluído (Dia 30/30)
 
 Este repositório documenta minha jornada intensiva de aprendizado em **Excel for Data Science**. O objetivo é dominar desde a estruturação de dados brutos até a criação de Dashboards Gerenciais interativos e automatizados.
 
