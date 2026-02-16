@@ -152,7 +152,7 @@ Transformação de uma lista de dados brutos em um relatório gerencial automati
 Dashboard interativo desenvolvido para análise de performance de vendas, sazonalidade e mix de produtos.
 
 ![Capa do Dashboard](Capa_Dashboard.png)
-*(Certifique-se de que o nome da imagem aqui seja igual ao arquivo que você subiu)*
+
 
 ## 🛠️ Tecnologias Utilizadas
 * **Microsoft Excel:** Tabelas Dinâmicas (Pivot Tables), Gráficos Dinâmicos, Segmentação de Dados (Slicers) e Tratamento de Dados (ETL simples).
