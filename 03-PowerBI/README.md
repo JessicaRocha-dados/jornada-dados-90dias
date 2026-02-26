@@ -34,3 +34,34 @@ O trabalho padrão no Power BI segue geralmente 5 etapas:
 2. **Importação:** Ligação do Power BI ao ficheiro Excel local utilizando a funcionalidade "Obter Dados".
 3. **Navegação:** Verificação dos dados importados através da *Exibição de Dados*.
 4. **Visualização:** Criação de um gráfico de barras na *Exibição de Relatório*, arrastando os campos `Campanha` (Eixo) e `Cliques` (Valores) para o canvas, gerando a visualização automática de desempenho por campanha.
+
+---
+
+---
+
+## 📊 Dia 02: Power Query e ETL (Extração, Transformação e Carga)
+
+Neste segundo dia, o foco foi dominar a "cozinha" do Power BI: o Editor do Power Query. Aprendi como preparar dados do mundo real, que frequentemente chegam com formatações inadequadas de sistemas externos.
+
+### 📚 Introdução Teórica
+
+* **O que é ETL:** Processo de Extrair dados de uma fonte, Transformá-los (limpeza e modelagem) e Carregá-los no modelo do Power BI.
+* **O Motor do Power Query:** Uma ferramenta que grava cada passo de limpeza num processo automatizado (Etapas Aplicadas). Se os dados originais mudarem, a limpeza é refeita com um clique.
+* **Tipos de Dados:** A importância de definir corretamente o formato de cada coluna (Texto, Número Inteiro, Data/Hora) para permitir cálculos e filtros precisos.
+* **Técnicas de Limpeza:** Como utilizar funções para remover linhas e colunas inúteis, preparando a tabela para um formato tabular perfeito.
+
+### 💻 Exercício Prático do Dia
+
+**Objetivo:** Ligar o Power BI a uma folha de cálculo "suja" (simulando a exportação de um sistema de automação de marketing com dados de *Lead Score*) e realizar a limpeza completa utilizando o Power Query.
+
+**Passos Realizados:**
+1. **Extração:** Ligação ao ficheiro `Leads_Sujo.xlsx`.
+2. **Remoção de Sujidade:** Utilização da função *Remover Linhas Superiores* para apagar títulos inúteis gerados pelo sistema.
+3. **Estruturação:** Aplicação da função *Usar a Primeira Linha como Cabeçalho* para definir as colunas corretamente.
+4. **Limpeza Profunda:** Remoção de linhas em branco e exclusão de colunas nulas que não acrescentavam valor à análise.
+5. **Tipagem:** Ajuste do tipo de dados da coluna `Score_Lead` para *Número Inteiro*.
+6. **Carga:** Conclusão com "Fechar e Aplicar", disponibilizando os dados limpos para a criação de relatórios.
+
+**Resultado da Limpeza no Power Query:** ![Tabela Tratada no Power Query](Querytratada.png)
+
+**Dados Carregados no Power BI:** ![Tabela no Power BI](Powerbi.png)
