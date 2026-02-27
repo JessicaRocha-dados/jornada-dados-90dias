@@ -65,3 +65,27 @@ Neste segundo dia, o foco foi dominar a "cozinha" do Power BI: o Editor do Power
 **Resultado da Limpeza no Power Query:** ![Tabela Tratada no Power Query](Querytratada.png)
 
 **Dados Carregados no Power BI:** ![Tabela no Power BI](Powerbi.png)
+
+---
+---
+
+## 📊 Dia 03: Transformações Avançadas (Limpeza de Dados)
+
+Neste terceiro dia, avancei para técnicas de nível intermediário/avançado no Power Query, focando em transformar relatórios gerenciais (feitos para leitura humana) em modelos tabulares (feitos para leitura de máquinas e bancos de dados).
+
+### 📚 Introdução Teórica
+
+* **Pivoting / Unpivoting:** A técnica de transformar "colunas em linhas". Muitas bases de dados financeiras ou de metas trazem períodos (ex: meses, anos) espalhados em várias colunas. O *Unpivot* condensa essas colunas numa estrutura longa, criando uma coluna de "Atributo" e uma de "Valor", essencial para a criação de inteligência de tempo (Time Intelligence).
+* **Dividir Colunas (Split):** Utilização de delimitadores (como hífens, vírgulas ou espaços) para separar dados concatenados numa única célula, permitindo análises granulares (ex: separar o ID numérico do nome textual de uma campanha).
+
+### 💻 Exercício Prático do Dia
+
+**Objetivo:** Converter uma tabela de investimentos anuais "larga" (com os anos de 2024, 2025 e 2026 divididos em colunas) e IDs agrupados para o formato tabular perfeito.
+
+**Passos Realizados:**
+1. **Promoção de Cabeçalhos:** Ajuste da primeira linha para identificar corretamente os anos e a coluna de IDs.
+2. **Divisão de Colunas:** Uso da ferramenta *Dividir por Delimitador* (hífen) para separar o código numérico (`ID`) do nome da `Campanha`.
+3. **Unpivot:** Seleção das colunas âncora (ID e Campanha) e aplicação de *Transformar Outras Colunas em Linhas*, condensando os anos espalhados numa única coluna.
+4. **Tipagem e Renomeação:** Ajuste dos tipos de dados (Ano como Texto, Investimento como Número Inteiro) para garantir o funcionamento correto de agregações matemáticas no relatório final.
+
+**Resultado da Transformação (Unpivot & Split):** ![Tabela Unpivot no Power Query](Unpivot_Tratado.png)
