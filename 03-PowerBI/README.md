@@ -89,3 +89,30 @@ Neste terceiro dia, avancei para técnicas de nível intermediário/avançado no
 4. **Tipagem e Renomeação:** Ajuste dos tipos de dados (Ano como Texto, Investimento como Número Inteiro) para garantir o funcionamento correto de agregações matemáticas no relatório final.
 
 **Resultado da Transformação (Unpivot & Split):** ![Tabela Unpivot no Power Query](Unpivot_Tratado.png)
+
+--- 
+---
+
+## 📊 Dia 04: Tratamento de Erros e Desafio Master de ETL
+
+Neste quarto dia, enfrentei o cenário mais comum e temido do mundo dos dados: falhas humanas e sistemas despadronizados. Para testar minhas habilidades de ponta a ponta, criei um script em **Python** que gerou um dataset de 500 linhas contendo intencionalmente sujeiras estruturais, espaços em branco invisíveis, erros de digitação e valores de texto misturados em colunas financeiras.
+
+### 📚 Introdução Teórica
+
+* **Tratamento de Nulos (Null) e Espaços:** Como utilizar a função *Cortar (Trim)* para eliminar espaços invisíveis e *Substituir Valores* para padronizar células vazias ("") ou com a palavra "null", transformando-as em categorias úteis como "Não Informado".
+* **Substituição de Erros:** Técnicas para capturar erros de tipagem (ex: quando o sistema tenta converter a palavra "Falhou" para Número Inteiro) e substituí-los por valores neutros (como o zero), garantindo que as agregações matemáticas do dashboard não quebrem.
+
+### 💻 Exercício Prático: O Desafio Master
+
+**Objetivo:** Aplicar todas as técnicas dos Dias 01 a 04 para limpar um dataset caótico gerado via Python, transformando-o num modelo tabular perfeito.
+
+**Passos Realizados (Pipeline Completo):**
+1. Remoção de linhas superiores geradas pelo sistema e promoção de cabeçalhos.
+2. Exclusão de colunas fantasmas e nulas.
+3. Separação de dados concatenados (ID e Plataforma) com *Split por Delimitador*.
+4. Remoção de espaços invisíveis usando a função *Cortar (Trim)*.
+5. Padronização massiva de dados categóricos (unificando diferentes escritas de Estados) com *Substituir Valores*.
+6. Transformação estrutural com *Unpivot* para tabular os meses (Time Intelligence).
+7. Tipagem de dados e aplicação de *Substituir Erros* para zerar falhas financeiras.
+
+**Resultado do Pipeline de Limpeza:** ![Tabela Limpa Desafio Master](Base_Tratada_Master.png)
