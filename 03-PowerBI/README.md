@@ -116,3 +116,17 @@ Neste quarto dia, enfrentei o cenário mais comum e temido do mundo dos dados: f
 7. Tipagem de dados e aplicação de *Substituir Erros* para zerar falhas financeiras.
 
 **Resultado do Pipeline de Limpeza:** ![Tabela Limpa Desafio Master](Base_Tratada_Master.png)
+
+---
+
+## 📊 Dia 05: Combinação de Dados (Append & Merge)
+
+Neste dia, foquei em técnicas para consolidar e enriquecer bases de dados, simulando cenários reais onde as informações estão distribuídas em múltiplos arquivos.
+
+### 📚 Conceitos Aplicados
+
+* **Acrescentar Consultas (Append):** Utilizado para o empilhamento vertical de tabelas com estruturas idênticas. Consolidei históricos de vendas de diferentes anos (2023 e 2024) em uma única tabela fato.
+* **Mesclar Consultas (Merge):** Realizei o cruzamento horizontal (semelhante ao PROCV/Join) entre a tabela de vendas e a tabela de cadastro de vendedores. Isso permitiu enriquecer os dados transacionais com informações de Região, Equipe e Comissões.
+* **Otimização de Carga:** Apliquei a boa prática de desativar a carga das tabelas de apoio, mantendo apenas a tabela consolidada disponível para o relatório, economizando memória e performance.
+
+**Resultado da Mesclagem e Expansão:** ![Resultado Final](RESULTADO_FINAL.png)
