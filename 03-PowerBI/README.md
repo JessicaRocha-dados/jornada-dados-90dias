@@ -136,12 +136,13 @@ Neste dia, foquei em técnicas para consolidar e enriquecer bases de dados, simu
 
 ## 📊 Dia 06: Coluna Condicional e Lógica de Negócio
 
-Hoje dei "inteligência" aos dados brutos criando regras de decisão automáticas dentro do Power Query.
+Neste sexto dia do desafio, foquei em dar "inteligência" aos dados brutos, implementando regras de decisão automáticas diretamente no Power Query para facilitar a análise estratégica.
 
 ### 📚 Conceitos Aplicados
 
-* **Lógica de Negócio (If/Then/Else):** Implementação de regras para transformar números em categorias legíveis para tomada de decisão.
-* **Segmentação de Performance:** Criação da coluna `Status_Venda` para classificar o faturamento entre Ticket Alto, Médio e Baixo.
-* **Linguagem M:** Observação de como o Power Query traduz cliques em código funcional de transformação de dados.
+* **Lógica de Negócio (If/Then/Else):** Implementação de regras condicionais para transformar valores numéricos em categorias legíveis e acionáveis.
+* **Segmentação de Performance:** Criação da coluna `Status_Venda` para classificar automaticamente o faturamento entre Ticket Alto, Médio e Baixo, permitindo filtros mais eficientes no dashboard.
+* **Linguagem M:** Observação prática de como o Power Query traduz a interface visual em scripts de transformação de dados (`Table.AddColumn`).
 
-**Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS (2).png)
+**Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS%20(2).png)
+
