@@ -144,4 +144,4 @@ Hoje dei "inteligência" aos dados brutos criando regras de decisão automática
 * **Segmentação de Performance:** Criação da coluna `Status_Venda` para classificar o faturamento entre Ticket Alto, Médio e Baixo.
 * **Linguagem M:** Observação de como o Power Query traduz cliques em código funcional de transformação de dados.
 
-**Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS.png)
+**Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS (2).png)
