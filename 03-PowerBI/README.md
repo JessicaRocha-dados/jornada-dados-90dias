@@ -130,3 +130,18 @@ Neste dia, foquei em técnicas para consolidar e enriquecer bases de dados, simu
 * **Otimização de Carga:** Apliquei a boa prática de desativar a carga das tabelas de apoio, mantendo apenas a tabela consolidada disponível para o relatório, economizando memória e performance.
 
 **Resultado da Mesclagem e Expansão:** ![Resultado Final](RESULTADO_FINAL.png)
+
+---
+---
+
+## 📊 Dia 06: Coluna Condicional e Lógica de Negócio
+
+Hoje dei "inteligência" aos dados brutos criando regras de decisão automáticas dentro do Power Query.
+
+### 📚 Conceitos Aplicados
+
+* **Lógica de Negócio (If/Then/Else):** Implementação de regras para transformar números em categorias legíveis para tomada de decisão.
+* **Segmentação de Performance:** Criação da coluna `Status_Venda` para classificar o faturamento entre Ticket Alto, Médio e Baixo.
+* **Linguagem M:** Observação de como o Power Query traduz cliques em código funcional de transformação de dados.
+
+**Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS.png)
