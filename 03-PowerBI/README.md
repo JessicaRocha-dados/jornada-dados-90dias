@@ -146,3 +146,19 @@ Neste sexto dia do desafio, foquei em dar "inteligência" aos dados brutos, impl
 
 **Resultado da Lógica Aplicada:** ![Categorização de Vendas](CATEGORIZACAO_VENDAS%20(2).png)
 
+---
+
+---
+
+## 📊 Dia 07: Modelagem de Dados (Star Schema)
+
+Hoje dei o passo fundamental para a performance do dashboard: a transição do tratamento de dados para a modelagem lógica.
+
+### 📚 Conceitos Aplicados
+
+* **Star Schema:** Organização do modelo em tabelas de Fatos (eventos) e Dimensões (contexto).
+* **Relacionamentos (1:N):** Configuração de chaves primárias e estrangeiras para conectar a dimensão `Vendedores` à `Fato_Vendas`.
+* **Granularidade:** Entendimento de como o filtro flui das dimensões para os fatos, otimizando o cálculo de métricas.
+
+**Modelo Lógico Final:** ![Modelo Star Schema](Tabelafatovsdim.png)
+
