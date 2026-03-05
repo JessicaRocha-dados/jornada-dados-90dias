@@ -178,3 +178,34 @@ Hoje finalizei a configuração técnica das "pontes" entre as tabelas, garantin
 
 **Configuração do Relacionamento:** ![Relacionamento 1:N](dia08.png)
 
+---
+
+## 📅 Dia 09: Dimensão Calendário e Inteligência de Tempo
+
+Nesta etapa, implementei a **D_Calendario**, a tabela fundamental para qualquer análise de evolução temporal. Ela funciona como a espinha dorsal do projeto, garantindo que não existam "buracos" na linha do tempo e permitindo comparações dinâmicas entre os anos de 2023 e 2024.
+
+### 📚 Conceitos Aplicados
+
+* **Linguagem DAX:** Criação da tabela utilizando um script otimizado com as funções `CALENDARAUTO` e `ADDCOLUMNS`.
+* **Atributos de Tempo:** Extração automática de Ano, Mês Numérico, Nome do Mês, Trimestre e Dia da Semana para granularidade total nos filtros.
+* **Arquitetura de Dados:** Consolidação do modelo **Star Schema**, garantindo que as dimensões filtrem a tabela fato de forma eficiente.
+
+### 🛠️ Implementação Técnica
+
+Para gerar a tabela de forma dinâmica e contínua com base nos dados existentes, utilizamos o seguinte bloco de código DAX:
+
+**Script Utilizado:** ![Linguagem DAX](LinguagemDAX.png)
+
+### 📐 Modelo Lógico Final (Star Schema)
+
+Com a inclusão da dimensão de calendário, a "Estrela" do projeto está completa e relacionada. Agora, o modelo possui integridade referencial para suportar cálculos de **Time Intelligence**, como Total Acumulado e Crescimento Mensal.
+
+* **Tabela Fato:** `Fato_Vendas_Consolidadas`
+* **Dimensões:** `Vendedores` e `D_Calendario`
+* **Relacionamento:** 1:N (Um para Muitos) entre as chaves de data.
+
+**Estrutura do Modelo:** ![Modelo Star Schema Completo](MODELO_FINAL_ESTRELA.png)
+
+---
+
+
