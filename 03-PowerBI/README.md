@@ -162,3 +162,19 @@ Hoje dei o passo fundamental para a performance do dashboard: a transição do t
 
 **Modelo Lógico Final:** ![Modelo Star Schema](Tabelafatovsdim.png)
 
+---
+
+---
+
+## 📊 Dia 08: Engenharia de Relacionamentos e Cardinalidade
+
+Hoje finalizei a configuração técnica das "pontes" entre as tabelas, garantindo que o modelo Star Schema seja íntegro e performático.
+
+### 📚 Conceitos Aplicados
+
+* **Cardinalidade (*:1)**: Definição da relação onde muitos registros de vendas se conectam a um único cadastro de vendedor.
+* **Direção de Filtro Único**: Configuração para que o fluxo de dados siga o padrão profissional, onde a Dimensão filtra a Fato.
+* **Integridade Referencial**: Validação das chaves primárias e estrangeiras através da coluna `Vendedor`.
+
+**Configuração do Relacionamento:** ![Relacionamento 1:N](dia08.png)
+
