@@ -207,5 +207,17 @@ Com a inclusão da dimensão de calendário, a "Estrela" do projeto está comple
 **Estrutura do Modelo:** ![Modelo Star Schema Completo](MODELO_FINAL_ESTRELA.png)
 
 ---
+---
 
+## 🧮 Dia 10: Introdução ao DAX e Contexto de Filtro
+
+Hoje dei vida aos dados criando a "inteligência matemática" do dashboard através da linguagem DAX (Data Analysis Expressions).
+
+### 📚 Conceitos Aplicados
+
+* **Medidas vs. Colunas Calculadas:** Escolha estratégica por Medidas para garantir a performance do modelo, aproveitando o cálculo "on the fly" (Contexto de Filtro) em oposição ao cálculo linha a linha (Contexto de Linha).
+* **Funções DAX Básicas:** Utilização das funções `SUM` e `COUNTROWS` para consolidar o faturamento e o volume de transações.
+* **Interatividade Visual:** Criação dos primeiros elementos de interface (Cartões e Segmentação de Dados) para validar o funcionamento do relacionamento entre as dimensões e a tabela fato.
+
+**Validação das Medidas e Filtros:** ![Visuais e Medidas DAX](coluna_calculada.png)
 
