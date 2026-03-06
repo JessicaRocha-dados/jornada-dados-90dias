@@ -221,3 +221,19 @@ Hoje dei vida aos dados criando a "inteligência matemática" do dashboard atrav
 
 **Validação das Medidas e Filtros:** ![Visuais e Medidas DAX](coluna_calculada.png)
 
+---
+
+---
+
+## ⏳ Dia 11: Inteligência de Tempo (Time Intelligence)
+
+Hoje o dashboard subiu de nível com a introdução da Inteligência de Tempo. Agora o modelo não apenas soma o presente, mas consegue "viajar no tempo" para comparar o faturamento atual com o exato mesmo período do ano anterior.
+
+### 📚 Conceitos Aplicados
+
+* **CALCULATE:** Utilização da função mais poderosa do DAX para modificar o contexto de filtro da medida original.
+* **SAMEPERIODLASTYEAR:** Aplicação de função de Time Intelligence para buscar os valores de faturamento de 2023 e colocá-los lado a lado com 2024.
+* **Modelagem e UX:** Resolução de problemas clássicos de visualização, como a ordenação cronológica de meses (Janeiro, Fevereiro...) em vez de alfabética, utilizando a ferramenta "Classificar por coluna".
+
+**Validação do Faturamento Ano a Ano (YoY):** ![Tabela Time Intelligence](time_intelligence.png)
+
