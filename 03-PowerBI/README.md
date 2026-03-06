@@ -237,3 +237,18 @@ Hoje o dashboard subiu de nível com a introdução da Inteligência de Tempo. A
 
 **Validação do Faturamento Ano a Ano (YoY):** ![Tabela Time Intelligence](time_intelligence.png)
 
+---
+
+
+## 📊 Dia 12: Visualização de Dados (Gráfico YoY)
+
+Hoje, os cálculos de Inteligência de Tempo ganharam forma visual. O modelo agora apresenta um gráfico executivo que compara o desempenho atual contra o passado de forma intuitiva.
+
+### 📚 Conceitos Aplicados
+
+* **Data Storytelling:** Escolha do Gráfico de Colunas e Linhas como a melhor ferramenta visual para comparar volume atual (barras) versus tendência histórica (linha).
+* **Limpeza Visual (Clean Data):** Remoção de quebras de categoria (legendas no eixo) para criar barras sólidas e linhas contínuas, reduzindo a carga cognitiva na leitura do gráfico.
+* **Interatividade Dinâmica:** Configuração de Segmentação de Dados (Slicer) em formato de lista vertical, permitindo que o usuário isolem o ano de análise (ex: 2024) enquanto a medida DAX `SAMEPERIODLASTYEAR` busca os dados correspondentes no passado.
+
+**Gráfico de Faturamento Ano a Ano:** ![Gráfico YoY](grafico_colunas_linhas_yoy.png)
+
