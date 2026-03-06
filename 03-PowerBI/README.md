@@ -238,7 +238,19 @@ Hoje o dashboard subiu de nível com a introdução da Inteligência de Tempo. A
 **Validação do Faturamento Ano a Ano (YoY):** ![Tabela Time Intelligence](time_intelligence.png)
 
 ---
+---
 
+## 📈 Dia 13: KPI de Crescimento (Taxa YoY %)
+
+Para complementar a análise visual do gráfico de faturamento, hoje foi implementado o principal KPI exigido por gestores de negócio: a Taxa de Crescimento Ano a Ano (Year-over-Year).
+
+### 📚 Conceitos Aplicados
+
+* **Matemática de Negócios no DAX:** Tradução da fórmula de variação percentual `(Atual - Passado) / Passado` para a linguagem do Power BI utilizando variáveis (`VAR` e `RETURN`) para manter o código limpo e performático.
+* **Função DIVIDE:** Utilização da função de divisão segura do DAX para evitar erros no painel (como o erro de divisão por zero caso não houvesse faturamento no ano anterior).
+* **Formatação e UI:** Aplicação de formatação de porcentagem e casas decimais no visual de Cartão, transformando decimais puros (0,01) em métricas de fácil leitura executiva (1,2%).
+
+**Indicador de Variação YoY:** ![KPI de Crescimento](13_porcentagem.png)
 
 ## 📊 Dia 12: Visualização de Dados (Gráfico YoY)
 
