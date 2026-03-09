@@ -265,3 +265,15 @@ Para complementar a análise visual do gráfico de faturamento, hoje foi impleme
 
 **Indicador de Variação YoY:** ![KPI de Crescimento](kpi_crescimento_yoy.png)
 
+---
+
+## ⏳ Dia 14: Inteligência de Tempo Avançada (MoM e YTD)
+
+Hoje o modelo analítico ficou completo com a introdução de funções avançadas de manipulação de contexto temporal, permitindo análises de Month-over-Month e Year-to-Date.
+
+### 📚 Conceitos Aplicados
+
+* **DATEADD (Máquina do Tempo):** Utilização da função para deslocar o contexto de filtro em intervalos específicos (meses, dias, trimestres). Criado o indicador de Faturamento do Mês Anterior, inclusive cruzando a fronteira de anos automaticamente.
+* **DATESYTD (Acumulado do Ano):** Implementação de cálculo de soma contínua (running total) desde o dia 1º de Janeiro até a data do contexto atual, essencial para acompanhamento de metas anuais.
+
+**Tabela de Validação Temporal:** ![Tabela Time Intelligence Avançada](tabela_time_intelligence_avancada.png)
