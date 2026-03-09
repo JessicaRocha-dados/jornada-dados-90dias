@@ -277,3 +277,17 @@ Hoje o modelo analítico ficou completo com a introdução de funções avançad
 * **DATESYTD (Acumulado do Ano):** Implementação de cálculo de soma contínua (running total) desde o dia 1º de Janeiro até a data do contexto atual, essencial para acompanhamento de metas anuais.
 
 **Tabela de Validação Temporal:** ![Tabela Time Intelligence Avançada](tabela_time_intelligence_avancada.png)
+
+---
+
+## 🧮 Dia 15: Iteradores em DAX (SUMX)
+
+Hoje o projeto subiu de nível em complexidade matemática. O uso de funções iteradoras permitiu calcular métricas financeiras detalhadas linha a linha, algo impossível com agregações simples como o SUM.
+
+### 📚 Conceitos Aplicados
+
+* **Contexto de Linha vs. Contexto de Filtro:** Compreensão profunda de como o DAX avalia expressões iteradoras (X-functions) varrendo a tabela virtualmente antes de aplicar a agregação final.
+* **SUMX na Prática:** Criação da medida `Total Comissoes`, multiplicando o valor de cada venda pela sua taxa de comissão correspondente linha a linha.
+* **Tratamento de Escala:** Correção matemática in-line `(Taxa / 100)` dentro da função iteradora para converter números inteiros em percentuais reais sem a necessidade de criar colunas físicas na base, economizando memória do modelo.
+* **Cálculo de Margem:** Criação da medida `Lucro Apos Comissao` subtraindo os custos calculados do faturamento total.
+* **Dashboard atualizado com indicadores de Margem e Comissão:** ![Iteradores e Layout](Dia15_Interadores.png)
