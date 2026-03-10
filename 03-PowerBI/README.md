@@ -305,6 +305,6 @@ Hoje o projeto ganhou a capacidade de identificar automaticamente os maiores ger
 * **RANKX com ALL:** Criação de uma medida DAX para calcular a posição (ranking) de cada vendedor. O uso da função `ALL` foi essencial para remover o contexto de filtro individual, permitindo que a função avaliasse a base completa para atribuir a colocação correta.
 * **Filtros Visuais Avançados (TOPN):** Aplicação de filtro direto no visual (Top 5) para limitar a exibição da tabela aos vendedores com maior impacto no `Total Faturado`, otimizando o espaço da tela e focando na "elite" das vendas.
 
-**Tabela de Ranking Top 5 Vendedores:** ![Ranking de Vendedores](Dia16_Ranking.png)
+**Tabela de Ranking Top 4 Vendedores:** ![Ranking de Vendedores](Dia16_Ranking.png)
 
 ---
