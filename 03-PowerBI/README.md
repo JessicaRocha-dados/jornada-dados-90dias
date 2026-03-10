@@ -308,3 +308,16 @@ Hoje o projeto ganhou a capacidade de identificar automaticamente os maiores ger
 **Tabela de Ranking Top 4 Vendedores:** ![Ranking de Vendedores](Dia16_Ranking.png)
 
 ---
+---
+
+## 🎨 Dia 17: Visuais Nativos 
+
+Hoje o projeto deixou de ser um conjunto de tabelas soltas e ganhou a sua primeira estrutura de layout executivo. O foco foi a usabilidade (UX) e o Data Storytelling, organizando as informações de forma hierárquica e fluida.
+
+### 📚 Conceitos Aplicados
+
+* **Hierarquia Visual (Grid Layout):** Estruturação da tela em 3 blocos lógicos: Cabeçalho de KPIs (respostas rápidas), Corpo (evolução temporal) e Rodapé Analítico (detalhamento categórico).
+* **Matriz Hierárquica:** Conversão da tabela de inteligência temporal para uma Matriz, permitindo a expansão/recolhimento dos meses (`Drill-down` visual) e eliminando a necessidade de rolagem horizontal.
+* **Análise Categórica:** Adição do gráfico de barras agrupadas horizontais para visualizar o "Total Faturado por Região", facilitando a identificação dos maiores polos de receita (Sudeste no topo).
+
+**Primeiro Layout Executivo (Visão Geral):** ![Layout Visuais Nativos](Dia17_Layout.png)
