@@ -291,3 +291,20 @@ Hoje o projeto subiu de nível em complexidade matemática. O uso de funções i
 * **Tratamento de Escala:** Correção matemática in-line `(Taxa / 100)` dentro da função iteradora para converter números inteiros em percentuais reais sem a necessidade de criar colunas físicas na base, economizando memória do modelo.
 * **Cálculo de Margem:** Criação da medida `Lucro Apos Comissao` subtraindo os custos calculados do faturamento total.
 * **Dashboard atualizado com indicadores de Margem e Comissão:** ![Iteradores e Layout](Dia15_Interadores.png)
+
+  ---
+
+  ---
+
+## 🏆 Dia 16: Ranking de Performance (RANKX e TOPN)
+
+Hoje o projeto ganhou a capacidade de identificar automaticamente os maiores geradores de receita da empresa, uma das visões mais requisitadas por gestores comerciais.
+
+### 📚 Conceitos Aplicados
+
+* **RANKX com ALL:** Criação de uma medida DAX para calcular a posição (ranking) de cada vendedor. O uso da função `ALL` foi essencial para remover o contexto de filtro individual, permitindo que a função avaliasse a base completa para atribuir a colocação correta.
+* **Filtros Visuais Avançados (TOPN):** Aplicação de filtro direto no visual (Top 5) para limitar a exibição da tabela aos vendedores com maior impacto no `Total Faturado`, otimizando o espaço da tela e focando na "elite" das vendas.
+
+**Tabela de Ranking Top 5 Vendedores:** ![Ranking de Vendedores](Dia16_Ranking.png)
+
+---
