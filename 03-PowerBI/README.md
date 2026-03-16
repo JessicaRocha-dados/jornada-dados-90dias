@@ -321,3 +321,19 @@ Hoje o projeto deixou de ser um conjunto de tabelas soltas e ganhou a sua primei
 * **Análise Categórica:** Adição do gráfico de barras agrupadas horizontais para visualizar o "Total Faturado por Região", facilitando a identificação dos maiores polos de receita (Sudeste no topo).
 
 **Primeiro Layout Executivo (Visão Geral):** ![Layout Visuais Nativos](Dia17_Layout.png)
+
+---
+---
+
+## 🎨 Dia 18: UX/UI Design Avançado (Data Storytelling)
+
+Hoje o foco foi a Experiência do Usuário (UX) e a Interface (UI). O painel InsightOS foi transformado para atuar visualmente como um aplicativo web executivo, garantindo que a tomada de decisão seja rápida, clara e esteticamente agradável.
+
+### 📚 Conceitos Aplicados
+
+* **Card-based Layout e Profundidade:** Uso de bordas arredondadas e drop shadows (sombras) suaves em fundo claro para criar blocos flutuantes, separando visualmente as categorias de informação.
+* **Hierarquia Tipográfica:** Criação de um cabeçalho de marca (Header) utilizando pesos diferentes de fonte (Bold vs. Light) e contraste de cores para guiar a leitura (Z-Pattern).
+* **Otimização do Data-Ink Ratio:** Remoção de eixos redundantes, linhas de grade e bordas nativas dos gráficos, reduzindo a carga cognitiva e focando inteiramente nas tendências e rótulos de dados.
+* **Paleta Corporativa:** Adoção de tons de Azul Marinho (confiança/estabilidade) em contraste com branco e cinza, respeitando a regra do 60-30-10 para dashboards institucionais.
+
+**Layout Final Executivo InsightOS:** ![Design Final InsightOS](Dia18_UX_UI_Design.png)
