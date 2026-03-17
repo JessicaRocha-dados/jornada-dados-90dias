@@ -350,3 +350,16 @@ Nesta etapa, o painel InsightOS deixou de ser estático para se tornar uma aplic
 * **UI/UX em Elementos de Ação:** Formatação de botões sem bordas nativas, utilizando preenchimento de cor primária da marca e formas arredondadas para consistência com o *Card-based Layout*.
 
 **Botão em Ação:** ![Interatividade InsightOS](Dia19_Interatividade_Bookmarks.png)
+
+---
+
+## 🔍 Dia 20: Tooltips Avançadas (O Efeito "Holograma")
+
+Nesta etapa, elevamos a experiência do usuário (UX) substituindo as caixas de texto padrão do Power BI por **Tooltips de Página de Relatório**. O objetivo foi criar uma navegação fluida onde o detalhamento dos dados surge de forma contextual, sem tirar o usuário da visão principal.
+
+### 📚 Técnicas Aplicadas
+* **Configuração de Canvas:** Criação de uma página oculta com tamanho customizado (`Dica de Ferramenta`) dedicada exclusivamente para sobreposição visual.
+* **Mini-Gráficos Otimizados:** Uso de um gráfico de barras horizontais focado no "Data-Ink Ratio" (remoção de eixos, fundos e títulos desnecessários) para caber em um espaço reduzido.
+* **Filtragem Dinâmica de Contexto:** Conexão da Tooltip ao gráfico de Desempenho Regional. O Power BI filtra automaticamente o ranking de vendedores de acordo com a região onde o mouse está posicionado (Hover state).
+
+**Resultado do Drill-down Visual:** ![Tooltip InsightOS](Dia20_Tooltip_Personalizada_InsightOS.png])
