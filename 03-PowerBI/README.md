@@ -352,7 +352,7 @@ Nesta etapa, o painel InsightOS deixou de ser estático para se tornar uma aplic
 **Botão em Ação:** ![Interatividade InsightOS](Dia19_Interatividade_Bookmarks.png)
 
 ---
-## 🔍 Dia 20: Tooltips Avançadas (O Efeito "Holograma")
+## 🔍 Dia 20: Tooltips Avançadas Efeito "Holograma"
 
 Nesta etapa, elevamos a experiência do usuário (UX) substituindo as caixas de texto padrão do Power BI por **Tooltips de Página de Relatório**. O objetivo foi criar uma navegação fluida onde o detalhamento dos dados surge de forma contextual, sem tirar o usuário da visão principal.
 
