@@ -337,3 +337,16 @@ Hoje o foco foi a Experiência do Usuário (UX) e a Interface (UI). O painel Ins
 * **Paleta Corporativa:** Adoção de tons de Azul Marinho (confiança/estabilidade) em contraste com branco e cinza, respeitando a regra do 60-30-10 para dashboards institucionais.
 
 **Layout Final Executivo InsightOS:** ![Design Final InsightOS](Dia18_UX_UI_Design.png)
+
+---
+
+## 🖱️ Dia 19: Interatividade e Navegação Avançada
+
+Nesta etapa, o painel InsightOS deixou de ser estático para se tornar uma aplicação interativa. O foco foi dar ao usuário o controle total sobre a exploração dos dados, sem o risco de se perder em múltiplos filtros.
+
+### 📚 Técnicas Aplicadas
+* **Indicadores (Bookmarks):** Captura do estado original (sem filtros) do painel de controle.
+* **Ações de Botão (Buttons):** Criação de um botão executivo customizado com cantos arredondados, integrado via interface gráfica para acionar o Bookmark de "Limpeza de Filtros" com um único clique.
+* **UI/UX em Elementos de Ação:** Formatação de botões sem bordas nativas, utilizando preenchimento de cor primária da marca e formas arredondadas para consistência com o *Card-based Layout*.
+
+**Botão em Ação:** ![Interatividade InsightOS](Dia19_Interatividade_Bookmarks.png)
