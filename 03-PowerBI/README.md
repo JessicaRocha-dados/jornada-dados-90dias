@@ -378,3 +378,21 @@ Compreendendo que grande parte do consumo de dados por gestores e executivos oco
 ![Mobile Layout Gráficos](Dia21_InsightOS_Mobile_Graficos.png)
 
 ---
+
+---
+
+## 🔍 Dia 22: Navegação Avançada (Drill-through / Detalhamento)
+
+Nesta etapa, focamos em aprimorar a Experiência do Usuário (UX) e a capacidade analítica do painel implementando a técnica de **Drill-through** (Detalhamento). O objetivo é permitir que os gestores mergulhem da visão macro (resumo em gráficos) para a visão micro (granularidade em tabelas) com apenas um clique.
+
+### 📚 Técnicas Aplicadas
+* **Página de Destino Oculta:** Criação de uma página dedicada a relatórios granulares, ocultada da navegação padrão para manter o fluxo do usuário focado e limpo.
+* **Mapeamento de Contexto (Drill-through):** Sincronização da coluna `Regiao` entre o gráfico principal e a página de destino, instruindo o modelo a herdar e aplicar o filtro de contexto automaticamente durante a transição de tela.
+* **Design de Tabela (UX):** Substituição de rolagem horizontal complexa por uma tabela plana de leitura vertical. Aplicação de "Linhas Alternadas" (Zebra striping) para reduzir a fadiga visual durante a auditoria linha a linha dos dados filtrados.
+* **Navegação de Retorno:** Implementação de botão de retorno contextual para garantir que o usuário volte exatamente para o estado visual anterior do dashboard.
+
+**Ação de Navegação (Menu Obter Detalhes):** ![Acesso ao Drill-through](Dia22_Drillthrough_InsightOS.png)
+
+**Resultado do Detalhamento (Filtrado automaticamente para a Região selecionada):** ![Página de Detalhamento Filtrada](Dia22_Drillthrough_InsightOS2.png)
+
+---
