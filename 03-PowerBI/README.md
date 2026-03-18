@@ -362,3 +362,19 @@ Nesta etapa, elevamos a experiência do usuário (UX) substituindo as caixas de 
 * **Filtragem Dinâmica de Contexto:** Conexão da Tooltip ao gráfico de Desempenho Regional. O Power BI filtra automaticamente o ranking de vendedores de acordo com a região onde o mouse está posicionado (Hover state).
 
 **Resultado do Drill-down Visual:** ![Tooltip InsightOS](Dia20_Tooltip_Personalizada_InsightOS.png)
+
+---
+
+## 📱 Dia 21: Mobile Layout (Design Responsivo e Thumb Zone)
+
+Compreendendo que grande parte do consumo de dados por gestores e executivos ocorre em dispositivos móveis, dediquei esta etapa para otimizar o **InsightOS** para telas pequenas. O foco foi a curadoria de informações e a hierarquia visual.
+
+### 📚 Técnicas Aplicadas
+* **Curadoria de Dados:** Omissão intencional de tabelas densas, priorizando o resumo executivo (Filtros globais e Cartões de KPI).
+* **Fluxo de Leitura Vertical:** Reorganização dos blocos visuais para permitir uma rolagem natural, garantindo que nenhum número importante seja cortado ou redimensionado de forma ilegível.
+* **Otimização de Espaço:** Expansão dos gráficos de tendência (Linhas/Colunas) para ocupar 100% da largura da tela (`width`), maximizando a clareza das barras e eixos no celular.
+
+**Visão Mobile do InsightOS:** ![Mobile Layout Topo](Dia21_InsightOS_Mobile_Topo.png)
+![Mobile Layout Gráficos](Dia21_InsightOS_Mobile_Graficos.png)
+
+---
