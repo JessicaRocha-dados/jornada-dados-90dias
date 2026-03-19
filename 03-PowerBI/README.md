@@ -396,3 +396,35 @@ Nesta etapa, focamos em aprimorar a Experiência do Usuário (UX) e a capacidade
 **Resultado do Detalhamento (Filtrado automaticamente para a Região selecionada):** ![Página de Detalhamento Filtrada](Dia22_Drillthrough_InsightOS2.png)
 
 ---
+# ⚙️ Dia 23: Deixando o Dashboard Inteligente e Fácil de Manter
+
+Nesta etapa do projeto InsightOS, o objetivo foi tirar o relatório do modo "manual" e criar uma estrutura que funcione sozinha, mesmo que os arquivos mudem de pasta ou que o tempo passe. O foco foi organização, segurança de dados e praticidade para o usuário final.
+
+### 📚 O que foi feito na prática
+
+* **Caminho de Pasta Inteligente (Parâmetros):** Em vez de deixar o endereço do meu computador travado em cada tabela, criei um "atalho" (parâmetro). Agora, se eu mudar os arquivos de lugar, só preciso alterar o caminho em um único campo, e todas as tabelas se atualizam sozinhas. Isso evita o erro de "arquivo não encontrado".
+* **Datas que se Atualizam Sozinhas:** Configurei filtros de **Data Relativa**. Isso significa que o dashboard olha para o calendário do computador e mostra sempre os dados mais recentes (ex: últimos 3 anos), sem que ninguém precise mudar o filtro manualmente todo mês.
+* **Organização dos Arquivos:** Migrei todas as planilhas para uma pasta exclusiva do projeto, garantindo uma estrutura profissional e fácil de localizar.
+
+---
+
+### 🛠️ Resolvendo Problemas do Dia a Dia 
+
+Saber consertar o que quebra é uma das habilidades mais importantes. Abaixo, mostro como identifiquei e resolvi erros que surgiram durante a automação do projeto.
+
+#### 1. Identificando o Erro de Conexão
+Ao tentar automatizar o caminho das pastas, uma das tabelas perdeu sua formatação original e parou de ser reconhecida como "tabela". Isso gerou um erro na nossa tabela consolidada (Fato), que não conseguia misturar os dados novos com os antigos.
+
+![Aviso de Erro na Tabela Fato_Vendas_Consolidadas](Dia23_Erro_ETL.png)
+
+#### 2. Resolvendo o Problema no Código (Linguagem M)
+Como o Power BI não permitia excluir a tabela com erro por causa das dependências, a solução foi ajustar o código dela manualmente. Acessei o **Editor Avançado**, usei como base a configuração de uma tabela que estava funcionando e adaptei as referências. Foi a forma mais limpa de recuperar a integridade dos dados.
+
+![Editor Avançado - Ajuste no código](Dia23_Editor_Avancado.png)
+
+#### 3. Resultado Final: Dashboard Dinâmico
+Com tudo corrigido, o resultado é um painel que "anda sozinho" com o tempo. Note que os gráficos e indicadores já se ajustaram para mostrar os dados atuais de 2024 a 2026, ignorando o que é muito antigo de forma automática e inteligente.
+
+![Dashboard Final com Datas Automáticas](Dia23_Filtro_Data_Relativa.png)
+
+---
