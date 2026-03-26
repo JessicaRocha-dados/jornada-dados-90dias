@@ -428,3 +428,31 @@ Com tudo corrigido, o resultado é um painel que "anda sozinho" com o tempo. Not
 ![Dashboard Final com Datas Automáticas](Dia23_Filtro_Data_Relativa.png)
 
 ---
+
+# 🛡️ Dia 24: Segurança em Nível de Linha (RLS) - O Dashboard Inteligente
+
+No ambiente corporativo, a governança de dados é tão importante quanto a visualização. Hoje, o foco do InsightOS foi implementar a **Segurança em Nível de Linha (Row Level Security - RLS)**. 
+
+O objetivo do RLS é simples e poderoso: construir um único dashboard escalável, onde diferentes usuários acessam o mesmo link, mas cada um enxerga apenas os dados que tem permissão para ver. Acabou a necessidade de criar "um arquivo para cada vendedor".
+
+### 📚 Práticas Aplicadas
+
+Nesta etapa, criei uma regra de segurança (Role) para restringir o acesso aos dados da tabela Fato com base no nome do vendedor. Documentei duas abordagens de configuração: a interface visual atualizada e a escrita direta via linguagem DAX.
+
+#### 1. Configuração da Regra (Modo Visual)
+Utilizando a nova interface do Power BI, criei a função `Acesso_Carlos` e apliquei um filtro direto na tabela consolidada, definindo que a coluna Vendedor deve ser estritamente igual a "Carlos".
+![Configuração Visual do RLS](Dia24_RLS.png)
+
+#### 2. Configuração da Regra (Modo Código DAX)
+Para garantir flexibilidade e preparar o terreno para regras dinâmicas no futuro, validei a mesma configuração através do editor DAX, inserindo a expressão `[Vendedor] = "Carlos"`. Entender o código por trás da interface é fundamental para criar lógicas de segurança complexas.
+![Configuração via DAX](Dia24_RLS_Modo_DAX.png)
+
+#### 3. Simulando o Acesso do Usuário
+Com a regra salva, utilizei a funcionalidade "Exibir como" (View As) para testar o comportamento do dashboard simulando o login do vendedor Carlos.
+![Testando o Filtro RLS](Dia24_RLS_Testando_Filtro.png)
+
+#### 4. O Resultado Final: Visão Restrita e Segura
+Sucesso! O Power BI ativou o alerta de exibição restrita (faixa amarela). Note que todos os KPIs, gráficos e a tabela de vendedores foram recalculados para exibir **exclusivamente** o faturamento de 150 Mil pertencente ao Carlos. Os dados da Maria, Ana e João ficaram invisíveis e protegidos.
+![Resultado do RLS Aplicado](Dia24_RLS_Testando_Filtro_RESULTADO.png)
+
+---
