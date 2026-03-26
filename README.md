@@ -26,17 +26,29 @@ Foco em transformar planilhas em ferramentas de decisão e automação de rotina
 * Tabelas Dinâmicas e Gráficos Avançados
 * **Projeto Destaque:** Sistema de Frente de Caixa > Automação de consulta de preços utilizando PROCV e tratamento de erros para simular um sistema de vendas real.
 
-### 🔄 Fase 3: Power BI & Visualização (Dias 61 a 90 - Reta Final)
-Foco em Storytelling, Inteligência de Negócios (BI) e Governança de Dados. Passamos pelas etapas de ETL (Power Query), Modelagem (Star Schema), Linguagem DAX e Segurança (RLS).
+### 🔄 Fase 3: Power BI & Visualização (Dia 61 a 90 - Reta Final)
+Foco em Storytelling, Inteligência de Negócios (BI) e Governança de Dados.
 
-🔥 **O Desafio Final (Dias 25 a 30): Construção do Projeto Portfólio (InsightOS)**
-Esta última semana é dedicada à consolidação de todo o conhecimento dos 90 dias em um projeto de ponta a ponta ("Capstone Project"). 
-* **Dia 25:** Definição do Escopo, Objetivos de Negócio e Arquitetura do Projeto.
-* **Dia 26:** ETL Avançado, Conexão de Múltiplas Fontes e Modelagem de Dados.
-* **Dia 27:** Desenvolvimento de Medidas DAX Complexas (Time Intelligence e KPIs).
-* **Dia 28:** Design Visual, UX/UI para Dashboards e Storytelling com Dados.
-* **Dia 29:** Governança e Segurança: Implementação de RLS (Row Level Security).
-* **Dia 30:** Publicação no Power BI Service, Documentação Final e Revisão de Portfólio.
+🔥 **O Desafio Final (Dias 25 a 30): Construção do Projeto Portfólio de Ponta a Ponta**
+Esta última semana é dedicada à consolidação de todo o conhecimento em um projeto robusto ("Capstone Project"), simulando um ambiente corporativo real.
+
+* **Dia 25: Definição do Projeto Final**
+  * *Teoria:* Definição de escopo e escolha de um dataset robusto.
+  * *Prática:* Planejamento e levantamento das perguntas de negócio a responder.
+* **Dia 26: ETL e Modelagem do Projeto**
+  * *Teoria:* Revisão de ETL (Power Query) e Modelagem Dimensional.
+  * *Prática:* Importar, limpar e modelar os dados no formato Star Schema.
+* **Dia 27: DAX Avançado para o Projeto**
+  * *Teoria:* Revisão de lógica de negócio e contexto de filtro/linha.
+  * *Prática:* Criação das medidas-chave (KPIs) e inteligência temporal.
+* **Dia 28: Visualização e Storytelling**
+  * *Teoria:* Revisão de Design, UX/UI para dados e carga cognitiva.
+  * *Prática:* Construção do layout final, navegação (botões/indicadores) e tooltips personalizadas.
+* **Dia 29: Entrega e Portfólio**
+  * *Teoria:* Como documentar projetos de dados de alto nível.
+  * *Prática:* Publicação na Web e compartilhamento do case no LinkedIn e GitHub.
+* **Dia 30: Simulado Completo de Power BI**
+  * *Prática:* Teste prático de ponta a ponta para validação de conhecimentos.
 
 ---
 
