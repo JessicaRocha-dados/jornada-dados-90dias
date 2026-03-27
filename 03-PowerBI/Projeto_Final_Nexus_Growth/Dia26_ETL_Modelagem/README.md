@@ -2,7 +2,7 @@
 
 No mundo real, os dados nunca chegam limpos. Para o projeto Nexus Growth, o desafio de hoje foi utilizar o **Power Query** para transformar arquivos CSV brutos, cheios de erros de digitação, valores nulos e anomalias sistêmicas, em um modelo de dados confiável e performático.
 
-##  1. O Desafio 
+##  1. O Desafio
 Os dados extraídos das plataformas de marketing apresentavam inconsistências severas que quebrariam qualquer análise de ROAS:
 * Erros de digitação nas UTMs (ex: "Gogle", "Fb").
 * Outliers absurdos de Custo de Clique gerados por falhas de sistema.
@@ -10,7 +10,7 @@ Os dados extraídos das plataformas de marketing apresentavam inconsistências s
 
 ![Dados Brutos e Inconsistentes](Dia26_Print1_Caos.png)
 
-## 2. Transformação e Limpeza (Power Query)
+##  2. Transformação e Limpeza (Power Query)
 Utilizei diversas etapas de transformação para garantir a governança dos dados:
 1. **Padronização de Texto:** Funções de Capitalize, Trim e Replace Values para unificar as origens de tráfego.
 2. **Remoção de Outliers:** Filtros condicionais para excluir cliques com custos irreais.
@@ -18,6 +18,11 @@ Utilizei diversas etapas de transformação para garantir a governança dos dado
 4. **Desduplicação:** Remoção de IDs de leads duplicados para garantir a integridade dos relacionamentos (1:N).
 
 ![Etapas Aplicadas no Power Query](Dia26_Print2_EtapasQuery.png)
+
+###  2.1. Extração da Dimensão UTM (Engenharia Analítica)
+Um dos grandes desafios foi não possuir uma tabela de campanhas nativa. Para resolver isso, utilizei a duplicação de consultas no Power Query para extrair a dimensão `D_UTMs` diretamente da tabela fato. Criei uma `Chave_UTM` concatenada, mantive apenas os valores exclusivos e limpei a Fato, garantindo a performance do modelo.
+
+![Criação da Tabela D_UTMs](Dia26_Print_Extra_DUTMs.png)
 
 ##  3. A Modelagem: Star Schema
 O passo mais crítico foi a normalização. Transformei arquivos *flat* (planilhões) em 4 tabelas relacionais eficientes:
