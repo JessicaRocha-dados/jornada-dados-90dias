@@ -20,7 +20,7 @@ O projeto foi desenhado para responder a 5 perguntas estratégicas:
 4. **Validação do Lead Scoring:** A classificação preditiva da IA (Quente, Morno, Frio) está correta? Leads "Quentes" realmente geram mais receita no fundo do funil?
 5. **Jornada de Automação:** Qual fluxo de automação de e-mail gera mais conversões no menor tempo?
 
-## 📊 Arquitetura de Dados Planejada (Star Schema)
+##  Arquitetura de Dados Planejada (Star Schema)
 
 Para responder a essas perguntas, a modelagem de dados será estruturada em um **Star Schema** contendo:
 * **Tabela Fato:** `F_Sessoes_Conversoes` (Granularidade: 1 linha por sessão de usuário no site).
