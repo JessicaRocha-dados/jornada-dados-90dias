@@ -1,16 +1,16 @@
-# 🎯 Dia 25: Definição do Projeto Final - Escopo e Planejamento
+#  Dia 25: Definição do Projeto Final - Escopo e Planejamento
 
-Chegamos à reta final dos 90 Dias de Dados! O objetivo desta última semana é construir um **Capstone Project** (Projeto de Conclusão) de ponta a ponta, simulando um ambiente corporativo real. 
+Chegamos à reta final dos 90 Dias de Dados! O objetivo desta última semana é construir um Projeto de Conclusão de ponta a ponta. 
 
 Hoje, o foco foi 100% no planejamento, definição de escopo e arquitetura de dados.
 
-## 🏢 O Cenário de Negócio: Projeto "Nexus Growth Analytics"
+##  O Cenário de Negócio: Projeto "Nexus Growth Analytics"
 
 **A Empresa:** NexusTech (Empresa de software SaaS).
 **O Desafio:** A equipe de Growth Marketing investe pesadamente em tráfego pago (Google Ads, Meta Ads) e automação de e-mails. Eles utilizam Inteligência Artificial para classificar leads (Lead Scoring) e um Chatbot no site. No entanto, os dados estão descentralizados. A diretoria não sabe qual campanha traz o melhor Retorno sobre Investimento (ROAS) e se a IA realmente está otimizando o funil de vendas.
 **A Missão:** Desenvolver o "Nexus Growth Dashboard" para rastrear a jornada completa do usuário, desde o clique no anúncio (via UTMs) até a conversão final, validando a eficiência da Automação e da IA.
 
-## 🎯 Perguntas de Negócio (O Escopo)
+## Perguntas de Negócio 
 
 O projeto foi desenhado para responder a 5 perguntas estratégicas:
 
