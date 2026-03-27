@@ -6,7 +6,8 @@ Hoje, o foco foi 100% no planejamento, definição de escopo e arquitetura de da
 
 ##  O Cenário de Negócio: Projeto "Nexus Growth Analytics"
 
-**A Empresa:** NexusTech (Empresa de software SaaS).
+NexusTech (Empresa de software SaaS).
+
 **O Desafio:** A equipe de Growth Marketing investe pesadamente em tráfego pago (Google Ads, Meta Ads) e automação de e-mails. Eles utilizam Inteligência Artificial para classificar leads (Lead Scoring) e um Chatbot no site. No entanto, os dados estão descentralizados. A diretoria não sabe qual campanha traz o melhor Retorno sobre Investimento (ROAS) e se a IA realmente está otimizando o funil de vendas.
 **A Missão:** Desenvolver o "Nexus Growth Dashboard" para rastrear a jornada completa do usuário, desde o clique no anúncio (via UTMs) até a conversão final, validando a eficiência da Automação e da IA.
 
