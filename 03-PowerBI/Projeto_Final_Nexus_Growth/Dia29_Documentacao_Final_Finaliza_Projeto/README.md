@@ -39,7 +39,7 @@ O ecossistema de métricas construído permite monitorar:
 * **Receita Total (R$ 2,04 Mi):** Volume financeiro total gerado pelas campanhas no período selecionado.
 * **CAC (R$ 472,65):** Custo de Aquisição de Clientes, indicando a saúde financeira das operações de marketing.
 * **Investimento Total (R$ 338,89 Mil):** Capital alocado nas plataformas de mídia paga.
-* **ROAS (6,01):** Return on Ad Spend. A cada R$ 1,00 investido, a Nexus Growth retorna R$ 6,01 em receita.
+* **ROAS (6,01):** A cada R$ 1,00 investido, a Nexus Growth retorna R$ 6,01 em receita.
 
 ##  Conclusão
 A entrega deste dashboard marca a transição de relatórios estáticos e descentralizados para uma central de inteligência automatizada. A estruturação sólida do ETL garante que os dados sejam confiáveis, enquanto o design focado em UX permite que qualquer executivo extraia insights de alto valor em poucos segundos.
