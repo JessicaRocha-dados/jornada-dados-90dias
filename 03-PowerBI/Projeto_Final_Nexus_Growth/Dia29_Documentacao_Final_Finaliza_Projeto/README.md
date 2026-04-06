@@ -7,7 +7,7 @@ O **Nexus Growth Analytics** é um produto de dados desenvolvido para fornecer v
 
 ## 🖼️ Dashboard Final (Visão Q1 2026)
 
-![Dashboard Final Nexus Growth](Dia29_Nexus_growth_resultado_final%20.jpg)
+![Dashboard Final Nexus Growth](Dia29_Nexus_growth_resultado_final.jpg)
 
 *(Para visualizar a interatividade, faça o download do arquivo `.pbix` neste repositório)*
 
