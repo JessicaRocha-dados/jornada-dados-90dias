@@ -40,7 +40,7 @@ Foco em arquitetura de dados, modelagem dimensional e análise executiva.
 ## 💎 O Projeto Final: Nexus Growth Analytics (Capstone Project)
 Como grande marco do final da jornada, desenvolvi um ecossistema de BI para analisar a performance de mídia paga e o funil de aquisição (*Growth*).
 
-![Dashboard Final Nexus Growth](03-PowerBI/Projeto_Final_Nexus_Growth/Dia29_Documentacao_Final_Finaliza_Projeto/Dia29_Nexus_growth_resultado_final%20.jpg)
+![Dashboard Final Nexus Growth](03-PowerBI/Projeto_Final_Nexus_Growth/Dia29_Documentacao_Final_Finaliza_Projeto/Dia29_Nexus_growth_resultado_final.jpg)
 
 ### 💡 Insights Extraídos do Projeto:
 * **O peso das buscas por Marca e Orgânico (SEO):** O tráfego orgânico do Blog e campanhas institucionais lideram a receita. O investimento prévio em marca está trazendo clientes com alta intenção de compra e barateando o funil.
